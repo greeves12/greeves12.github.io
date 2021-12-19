@@ -32,6 +32,11 @@ body {
   background-image: url(images/background.jpg);
 }
 
+div#projects {
+  background-color: #b4bebe;
+}
+
+
 /*============= COURSE SECTION =============*/
 
 .narrow {
