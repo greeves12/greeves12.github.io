@@ -32,7 +32,7 @@ body {
   background-image: url(images/background.jpg);
 }
 
-div#projects {
+.projects {
   background-color: #b4bebe;
 }
 
