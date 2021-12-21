@@ -25,37 +25,102 @@ body {
 
 .navbar-dark .navbar-nav .nav-link.active,
 .navbar-dark .navbar-nav .nav-link:hover {
-  color: #1EBBA3;
+  color: #eed011;
+}
+
+#qualifications {
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .home-inner {
   background-image: url(images/background.jpg);
 }
 
+#tc {
+  width: 355px;
+}
+
 .heading {
   text-align: center;
   margin-top: 15px;
-  font-size: 60px;
+  font-size: 45px;
+  font-weight: bold;
+}
+
+.underline {
+  width: 5rem;
+  height: .2rem;
+  background-color: #0630ee;
+  margin: 0 auto 2rem;
+}
+
+#caption {
+  text-align: center;
+  width: 100%;
+  max-width: 100%;
+  position: absolute;
+  top: 38%;
+  z-index: 1;
+  color: white;
+  text-transform: uppercase;
 }
 
 #profile_img {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  height: 200px;
-  width: 200px;
+  height: 150px;
+  width: 150px;
   object-fit: cover;
   border-radius: 50%;
   margin-top: 30px;
 }
 
+#oracle {
+  width: 300px;
+}
+
+#ucalgary {
+  width: 215px;
+}
+
 #about {
   background-color: #d3d7d7;
-  padding-top: 3px;
+  padding-top: 30px;
+}
+
+#projects {
+  background-color: #d3d7d7;
+  padding-top: 30px;
 }
 
 .paragraph {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
+  max-width: 50em;
+  font-size: 20px;
+  margin-top: 30px;
+  padding-bottom: 90px;
+}
 
+.logo-font {
+  width: auto;
+  max-width: 40em;
+  text-align: center;
+  margin-left: 50px;
+  font-size: 20px;
+}
+
+#contact {
+  background-color: #49494d;
+}
+
+.contact-font {
+  color: white;
+  text-align: center;
 }
 
 /*============= COURSE SECTION =============*/
@@ -68,6 +133,7 @@ body {
 .narrow h1 {
     font-size: 2.4rem;
   }
+
 .btn-secondary {
   border-width: medium;
   border-radius: 0;
