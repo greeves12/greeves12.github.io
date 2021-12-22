@@ -51,7 +51,7 @@ body {
 .underline {
   width: 5rem;
   height: .2rem;
-  background-color: #0630ee;
+  background-color: #090bcb;
   margin: 0 auto 2rem;
 }
 
@@ -65,6 +65,7 @@ body {
   color: white;
   text-transform: uppercase;
 }
+
 
 #profile_img {
   display: block;
@@ -93,6 +94,7 @@ body {
 #projects {
   background-color: #d3d7d7;
   padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .paragraph {
@@ -118,9 +120,19 @@ body {
   background-color: #49494d;
 }
 
-.contact-font {
+footer {
+  background-color: #24292c;
   color: white;
-  text-align: center;
+  padding-top: 30px;
+}
+
+footer a {
+  color: white;
+}
+
+footer svg.svg-inline--fa {
+  font-size: 1.4rem;
+  margin: 1.2rem 0.5rem;
 }
 
 /*============= COURSE SECTION =============*/
